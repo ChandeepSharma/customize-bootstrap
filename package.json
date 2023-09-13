@@ -1,0 +1,26 @@
+{
+  "name": "customize-bootstrap",
+  "version": "1.0.0",
+  "description": "This is practice template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandeepSharma/customize-bootstrap.git"
+  },
+  "keywords": [
+    "sass",
+    "bootstrap."
+  ],
+  "author": "Chandeep Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChandeepSharma/customize-bootstrap/issues"
+  },
+  "homepage": "https://github.com/ChandeepSharma/customize-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
