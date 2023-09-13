@@ -1,13 +1,13 @@
 #customBtn1{
-    color: #ff6b81;
+    color: $danger-color;
     &:hover{
-    color:white;
-    background-color: black;
+    color:$white-color;
+    background-color: $dark-color;
     }
 }
 .index{
-    background-color: #fff !important;
-    color: black !important;
+    background-color: $white-color !important;
+    color: $dark-color !important;
     transition: ease-in-out;
     transition-duration: 0.3s;
 }
