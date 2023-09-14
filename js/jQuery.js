@@ -3,6 +3,8 @@ jQuery(document).ready(function(){
         if(window.pageYOffset > 50){
             console.log("over 400");
             $("a").removeClass("text-white");
+            $("#navAppvilla").removeClass("bg-danger");
+            $("#navAppvilla").addClass("shadow-lg");
             $("#navBtn").removeClass("btn-outline-white");
             $("#navBtn").addClass("btn-danger");
             $("#navBtn").addClass("text-white");
@@ -18,7 +20,9 @@ jQuery(document).ready(function(){
             $("#navAppvilla").removeClass("index");
             $("#navLogo").prop("src", "./images/white-logo.svg");
             $("#upArrow").addClass("d-none");
-        }
+            $("#navAppvilla").addClass("bg-danger");
+            $("#navAppvilla").removeClass("shadow-lg");
 
+        }
     });
 });

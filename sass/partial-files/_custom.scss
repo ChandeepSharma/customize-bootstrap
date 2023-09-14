@@ -6,8 +6,8 @@
     }
 }
 .index{
-    background-color: $white-color !important;
-    color: $dark-color !important;
+    background-color:$white-color;
+    color: $dark-color;
     transition: ease-in-out;
     transition-duration: 0.3s;
 }
@@ -15,6 +15,6 @@
     .card:hover{
         margin-top: -5px;
         transition: ease-in-out;
-        transition-duration: 0.2s;
+        transition-duration: 0.15s;
     }
 }
